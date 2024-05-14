@@ -1,26 +1,33 @@
-function getAllPropValues(propName) {
-  const products = [
-    { name: "Radar", price: 1300, quantity: 4 },
-    { name: "Scanner", price: 2700, quantity: 3 },
-    { name: "Droid", price: 400, quantity: 7 },
-    { name: "Grip", price: 1200, quantity: 9 },
-    ];
-    
-    const names = [];
-    const prices = [];
-    const quantitys = [];
+// function isEnoughCapacity(products, containerSize) {
 
-    for (const product of products) {
-        names.push(product.name);
-        // console.log(names);
-        // console.log(names.push(product.price));
-    }
-    return names;
-}
+//   const value = Object.values(products);
+//   let total = 0;
+
+//   for (const product of value) {
+//     total += product;
+   
+//   }
+
+//    if (total <= containerSize) {
+//       return true;
+//    } else { return false; }
+  
+// }
 
 
 
-getAllPropValues("name")  
- getAllPropValues("quantity")  
- getAllPropValues("price")  
- getAllPropValues("category")  
+// console.log(
+//   isEnoughCapacity({ apples: 2, grapes: 3, carrots: 1 }, 8)
+// ); // true
+
+// console.log(
+//   isEnoughCapacity({ apples: 4, grapes: 6, lime: 16 }, 12)
+// ); // false
+
+// console.log(
+//   isEnoughCapacity({ apples: 1, lime: 5, tomatoes: 3 }, 14)
+// ); // true
+
+// console.log(
+//   isEnoughCapacity({ apples: 18, potatoes: 5, oranges: 2 }, 7)
+// ); // false
